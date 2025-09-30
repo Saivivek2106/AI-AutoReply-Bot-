@@ -1,0 +1,1 @@
+A Python-based proof-of-concept that captures chat text from the desktop, sends the captured history to an OpenAI GPT model to generate a context-aware reply, and pastes/sends that reply back into the chat window via UI automation.
