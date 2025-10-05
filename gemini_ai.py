@@ -1,7 +1,7 @@
 import google.generativeai as genai
 
 # Configure your Gemini API key here
-GEMINI_API_KEY = "AIzaSyBpLsfUzeUl1wwUAepfpda7aNt9B2lY8us"
+GEMINI_API_KEY = "<enter your api key>"
 genai.configure(api_key=GEMINI_API_KEY)
 
 # Initialize the Gemini model
@@ -62,4 +62,5 @@ Chat History:
 
 # Generate content using the Gemini model
 completion = model.generate_content(prompt)
+
 print(completion.text)
