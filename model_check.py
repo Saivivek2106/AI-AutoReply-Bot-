@@ -1,7 +1,7 @@
 import google.generativeai as genai
 
 # --- Paste your Gemini API key here ---
-GEMINI_API_KEY = "AIzaSyBpLsfUzeUl1wwUAepfpda7aNt9B2lY8us"
+GEMINI_API_KEY = "<enter your api key>"
 
 try:
     genai.configure(api_key=GEMINI_API_KEY)
@@ -16,4 +16,5 @@ try:
 
 except Exception as e:
     print(f"An error occurred: {e}")
+
     print("\nPlease ensure your API key is correct and that you have enabled the 'Generative Language API' in your Google Cloud project.")
