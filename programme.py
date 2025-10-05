@@ -4,7 +4,7 @@ import pyperclip
 import google.generativeai as genai
 
 # Configure your Gemini API key here
-GEMINI_API_KEY = "AIzaSyBpLsfUzeUl1wwUAepfpda7aNt9B2lY8us"
+GEMINI_API_KEY = "<Enter you api key>"
 genai.configure(api_key=GEMINI_API_KEY)
 
 # Initialize the Gemini model
@@ -106,4 +106,5 @@ while True:
 
         # Step 7: Press Enter
         pyautogui.press('enter')
+
 
